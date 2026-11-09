@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <SolidWorksInteropDirectory Condition="'$(SolidWorksInteropDirectory)' == ''">$(SOLIDWORKS_INTEROP_DIR)</SolidWorksInteropDirectory>
+    <SolidWorksInteropDirectory Condition="'$(SolidWorksInteropDirectory)' == '' and Exists('$(ProgramW6432)\SOLIDWORKS Corp\SOLIDWORKS\SolidWorks.Interop.sldworks.dll')">$(ProgramW6432)\SOLIDWORKS Corp\SOLIDWORKS</SolidWorksInteropDirectory>
+    <SolidWorksInteropDirectory Condition="'$(SolidWorksInteropDirectory)' == '' and Exists('D:\Program Files\SOLIDWORKS Corp\SOLIDWORKS (2)\SolidWorks.Interop.sldworks.dll')">D:\Program Files\SOLIDWORKS Corp\SOLIDWORKS (2)</SolidWorksInteropDirectory>
+  </PropertyGroup>
+  <Target Name="ValidateSolidWorksInteropDirectory" BeforeTargets="ResolveAssemblyReferences" Condition="'$(MSBuildProjectName)' == 'XY.SolidWorksPlugin' or '$(MSBuildProjectName)' == 'XY.SolidWorksPlugin.Tests'">
+    <Error Condition="!Exists('$(SolidWorksInteropDirectory)\SolidWorks.Interop.sldworks.dll') or !Exists('$(SolidWorksInteropDirectory)\SolidWorks.Interop.swconst.dll') or !Exists('$(SolidWorksInteropDirectory)\SolidWorks.Interop.swcommands.dll') or !Exists('$(SolidWorksInteropDirectory)\SolidWorks.Interop.swpublished.dll')"
+           Text="SOLIDWORKS interop assemblies were not found. Run tools/build-source.ps1, set SOLIDWORKS_INTEROP_DIR, or pass -p:SolidWorksInteropDirectory=&quot;your SOLIDWORKS installation directory&quot;." />
+  </Target>
+</Project>

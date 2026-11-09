@@ -1,0 +1,143 @@
+{
+  "TriggerMode": "right-hold",
+  "HoldDelayMs": 450,
+  "MenuSizePx": 520,
+  "CenterRadiusPx": 44,
+  "FontSizePx": 14,
+  "FontName": "SimSun",
+  "OpacityPercent": 94,
+  "RadialMenuEnabled": true,
+  "ShortcutPaletteEnabled": true,
+  "ExplodeEnabled": true,
+  "WheelCommandTabEnabled": true,
+  "WheelCommandTabName": "XY轮盘",
+  "UserMacros": [],
+  "SketchWheelEnabled": false,
+  "GlobalComboAdvanceEnabled": false,
+  "ComboAdvanceKey": "Ctrl",
+  "PropertyWatermark": {
+    "Enabled": false
+  },
+  "ProcessRecognition": {
+    "Enabled": true,
+    "DefaultMode": "deep",
+    "SummaryPropertyName": "工序",
+    "Separator": "-",
+    "SyncWatermark": true,
+    "WriteCraftDescription": true,
+    "CraftDescriptionPropertyName": "工艺说明",
+    "WriteGeometryProperties": true,
+    "ThicknessPropertyName": "板厚",
+    "BendCountPropertyName": "折弯下刀数",
+    "CutoutCountPropertyName": "内轮廓数",
+    "PartTypePropertyName": "类型",
+    "ProcessTypePropertyName": "工序类型",
+    "RemarkPropertyName": "备注",
+    "OutsourcePropertyName": "外加工",
+    "AssemblyBatchSize": 1,
+    "AssemblyBatchDelayMs": 800,
+    "AssemblyAutoRecognition": true,
+    "DeburrProcessName": "去毛刺",
+    "InspectionProcessName": "检验",
+    "PackagingProcessName": "包装",
+    "ShippingProcessName": "出货",
+    "AdditionalProcesses": "",
+    "ProcessNameMappings": "",
+    "IncludeDeburr": true,
+    "IncludeInspection": true,
+    "IncludePackaging": true,
+    "IncludeShipping": true,
+    "InspectionAfterSurface": false,
+    "SurfaceMode": "material",
+    "SurfacePropertyName": "表面处理",
+    "DefaultSurfaceProcess": "表面处理",
+    "SurfaceMaterialRules": "AISI=拉丝|SUS=拉丝|SS=拉丝|不锈钢=拉丝|stainless=拉丝|Q235=烤漆|SPCC=烤漆"
+  },
+  "Menus": {
+    "sw.blank": {
+      "Key": "sw.blank",
+      "BackgroundImagePath": "",
+      "BackgroundOpacityPercent": 65,
+      "MenuSizePx": 520,
+      "CenterRadiusPx": 44,
+      "Rings": [
+        {
+          "Index": 0,
+          "Slots": 8,
+          "SizeWeight": 1,
+          "Enabled": true,
+          "Items": []
+        }
+      ],
+      "Enabled": true
+    },
+    "sw.part": {
+      "Key": "sw.part",
+      "BackgroundImagePath": "",
+      "BackgroundOpacityPercent": 65,
+      "MenuSizePx": 520,
+      "CenterRadiusPx": 44,
+      "Rings": [
+        {
+          "Index": 0,
+          "Slots": 8,
+          "SizeWeight": 1,
+          "Enabled": true,
+          "Items": []
+        }
+      ],
+      "Enabled": true
+    },
+    "sw.assembly": {
+      "Key": "sw.assembly",
+      "BackgroundImagePath": "",
+      "BackgroundOpacityPercent": 65,
+      "MenuSizePx": 520,
+      "CenterRadiusPx": 44,
+      "Rings": [
+        {
+          "Index": 0,
+          "Slots": 8,
+          "SizeWeight": 1,
+          "Enabled": true,
+          "Items": []
+        }
+      ],
+      "Enabled": true
+    },
+    "sw.drawing": {
+      "Key": "sw.drawing",
+      "BackgroundImagePath": "",
+      "BackgroundOpacityPercent": 65,
+      "MenuSizePx": 520,
+      "CenterRadiusPx": 44,
+      "Rings": [
+        {
+          "Index": 0,
+          "Slots": 8,
+          "SizeWeight": 1,
+          "Enabled": true,
+          "Items": []
+        }
+      ],
+      "Enabled": true
+    },
+    "sw.sketch": {
+      "Key": "sw.sketch",
+      "BackgroundImagePath": "",
+      "BackgroundOpacityPercent": 65,
+      "MenuSizePx": 520,
+      "CenterRadiusPx": 44,
+      "Rings": [
+        {
+          "Index": 0,
+          "Slots": 8,
+          "SizeWeight": 1,
+          "Enabled": true,
+          "Items": []
+        }
+      ],
+      "Enabled": false
+    }
+  }
+}

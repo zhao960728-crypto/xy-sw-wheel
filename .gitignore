@@ -1,0 +1,23 @@
+# Build output and local state
+[Bb]in/
+[Oo]bj/
+.vs/
+dist/
+work/
+artifacts/
+TestResults/
+results/
+local-install/
+Data/
+Logs/
+*.user
+*.suo
+*.log
+*.trx
+*.dll
+*.exe
+*.pdb
+*.zip
+*.xylpbackup
+.reasonix/
+.workbuddy-ai/
