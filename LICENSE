@@ -1,21 +1,28 @@
-MIT License
+原始出处授权 / Original-source permission
+LicenseRef-XY-Source
+xy-sw-wheel
+https://github.com/zhao960728-crypto/xy-sw-wheel
 
-Copyright (c) 2026 zhao960728-crypto (阿阳有想法), XY SW Wheel contributors
+发布者 zhao960728-crypto 和采用本授权的贡献者，各自授权任何人免费使用、复制、修改、
+合并、发表、分发、再许可及销售其在上方仓库公开的原创内容，包括商用和闭源二次开发。
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+对外分发含有这些原创内容的软件或文档（原版或衍生版）时，唯一条件是注明一次上方的
+原始仓库地址。随附说明、产品“关于”页或其他接收者可见的位置均可。
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+第三方内容适用各自的许可。原创内容按现状提供。在法律允许的范围内，各授权人不提供
+任何保证，也不对使用这些内容所致的损失承担责任。
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+The publisher, zhao960728-crypto, and each contributor who offers work
+under this permission grant everyone a worldwide, royalty-free copyright
+license to use, copy, modify, merge, publish, distribute, sublicense and sell
+their respective original material in the repository named above, including in commercial
+and closed-source products.
+
+If you distribute software or documentation containing that material, in
+original or modified form, the sole condition is to credit its origin once
+by giving the repository URL above. Accompanying documentation, an About
+screen, or another location visible to recipients is sufficient.
+
+Third-party material is subject to its own terms. The original material is
+provided as is. To the extent permitted by law, each licensor disclaims all
+warranties and liability for damages arising from use of the material.

@@ -22,8 +22,8 @@ $deniedExtensions = @('.dll','.pdb','.swp','.trx','.log','.zip','.cache','.tmp',
 $deniedDirectoryNames = @('bin','obj','TestResults','artifacts','dist','.git','.reasonix','.workbuddy-ai','tasks','%SystemDrive%','__pycache__')
 $roots = @('src','tests','tools','Resources')
 $retiredPathPattern = '(?i)(^|[\\/])(Hole[^\\/]*\.cs|PanelGap[^\\/]*\.cs|CutListBom[^\\/]*\.cs|QuoteConfig\.cs)$|(^|[\\/])sw-mcp([\\/]|$)'
-$rootFiles = @('LICENSE','LICENSE-SOURCE.txt','NOTICE','Directory.Build.props','BUILD_SOURCE.md','install.ps1','uninstall.ps1','安装.ps1','卸载.ps1','安装.bat','卸载.bat','一键安装.bat','Customize-RadialIcons.cmd','默认配置.json','更新说明.txt','功能介绍说明.txt')
-$requiredFiles = @('LICENSE','LICENSE-SOURCE.txt','NOTICE','Directory.Build.props','BUILD_SOURCE.md','src/XY.SolidWorksPlugin/XY.SolidWorksPlugin.csproj','src/XY.SolidWorksPlugin/Properties/AssemblyInfo.cs','tests/XY.SolidWorksPlugin.Tests/XY.SolidWorksPlugin.Tests.csproj','tools/build-source.ps1','tools/package-source.ps1','Resources/contact-wechat.jpg','Resources/contact-douyin.jpg')
+$rootFiles = @('LICENSE','NOTICE','Directory.Build.props','BUILD_SOURCE.md','install.ps1','uninstall.ps1','安装.ps1','卸载.ps1','安装.bat','卸载.bat','一键安装.bat','Customize-RadialIcons.cmd','默认配置.json','更新说明.txt','功能介绍说明.txt')
+$requiredFiles = @('LICENSE','NOTICE','Directory.Build.props','BUILD_SOURCE.md','src/XY.SolidWorksPlugin/XY.SolidWorksPlugin.csproj','src/XY.SolidWorksPlugin/Properties/AssemblyInfo.cs','tests/XY.SolidWorksPlugin.Tests/XY.SolidWorksPlugin.Tests.csproj','tools/build-source.ps1','tools/package-source.ps1','Resources/contact-wechat.jpg','Resources/contact-douyin.jpg')
 
 function Copy-RelativeFile([string]$Relative) {
     $target = Join-Path $stage $Relative
@@ -57,7 +57,7 @@ if (Test-Path -LiteralPath (Join-Path $repo $verification)) { Copy-RelativeFile 
 
 本项目原创部分可免费使用、商用和闭源二开。对外分发原版或衍生版时，只需注明一次原始仓库地址。
 原始出处 <https://github.com/zhao960728-crypto/xy-sw-wheel>
-授权全文见 LICENSE-SOURCE.txt。
+授权全文见 LICENSE。
 不包含编译 DLL/PDB、SWP 宏二进制、用户配置、运行日志、测试结果、历史工作目录或安装载荷。
 
 构建和测试详见 BUILD_SOURCE.md：

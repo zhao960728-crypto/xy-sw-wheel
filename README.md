@@ -14,7 +14,7 @@
 
 ## 许可证
 
-本项目原创部分可免费使用、商用和闭源二开。对外分发原版或衍生版时，只需注明一次原始仓库地址。 [原始仓库](https://github.com/zhao960728-crypto/xy-sw-wheel) · [授权全文](LICENSE-SOURCE.txt)
+本项目原创部分可免费使用、商用和闭源二开。对外分发原版或衍生版时，只需注明一次原始仓库地址。 [原始仓库](https://github.com/zhao960728-crypto/xy-sw-wheel) · [授权全文](LICENSE)
 
 第三方内容适用各自的许可。SOLIDWORKS 互操作程序集由本机安装提供，按其原许可使用。
 
