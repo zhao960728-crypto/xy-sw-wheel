@@ -14,6 +14,8 @@
 
 ## 许可证
 
-XY 项目原创部分采用 [MIT](LICENSE)，第三方内容保留原有权利与适用条款。SOLIDWORKS 互操作程序集由本机安装提供，按其原许可使用。
+本项目原创部分可免费使用、商用和闭源二开。对外分发原版或衍生版时，只需注明一次原始仓库地址。 [原始仓库](https://github.com/zhao960728-crypto/xy-sw-wheel) · [授权全文](LICENSE-SOURCE.txt)
+
+第三方内容适用各自的许可。SOLIDWORKS 互操作程序集由本机安装提供，按其原许可使用。
 
 AutoCAD 和中望 CAD 版另见 [小阳 CAD 轮盘](https://github.com/zhao960728-crypto/xy-cad-wheel)。
